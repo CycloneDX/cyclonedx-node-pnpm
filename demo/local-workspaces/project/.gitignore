@@ -1,0 +1,7 @@
+/*
+!/.gitignore
+!/package.json
+!/.npmrc
+!/pnpm-workspace.yaml
+!/README.md
+!/workspaces/

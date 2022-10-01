@@ -1,0 +1,97 @@
+# For details of what checks are run for PRs please refer below
+# docs: https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
+
+name: pnpm-ls demo results
+
+on:
+  #push:
+  #  branches: [ 'main', 'master', '1.0-dev' ]
+  #  paths:
+  #    - '!**'
+  #    - 'demos/*/project/*'
+  #    - '.github/workflows/pnpm-ls_demo-results.yml' # this file
+  #pull_request:
+  #  paths:
+  #    - '!**'
+  #    - 'demos/*/project/**'
+  #    - '.github/workflows/pnpm-ls_demo-results.yml' # this file
+  workflow_dispatch:
+
+env:
+  DEMO_ROOT_DIR: demo
+  RESULTS_DIR: CI_results
+  RESULTS_ARTIFACT: pnpm-ls-results
+
+jobs:
+  demo-results:
+    name: ${{ matrix.subject }} pnpm${{ matrix.pnpm-version }} node${{ matrix.node-version }} ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false # gather all the results !
+      matrix:
+        subject:
+          - bundled-dependencies
+          - dev-dependencies
+          - local-dependencies
+          - local-workspaces
+          - juice-shop
+        pnpm-version:
+          - '7'      # Latest
+          - '6'      # Legacy
+        node-version:
+          ## action based on https://github.com/actions/node-versions/releases
+          ## see also: https://nodejs.org/en/about/releases/
+          - '18'      # Current
+          - '16'      # Active LTS
+          - '14'      # Maintenance LTS
+        os:
+          - ubuntu-latest
+          - windows-latest
+          - macos-latest
+        exclude:
+          - # juice-shop might not be node14 compatible
+            subject: juice-shop
+            node-version: '14'
+    timeout-minutes: 10 # this is a large matrix, just don't waste time!
+    steps:
+      - name: Checkout
+        # see https://github.com/actions/checkout
+        uses: actions/checkout@v3
+      - name: prepare output
+        run: |
+          mkdir -p '${{ env.RESULTS_DIR }}'
+          echo 'OUT_FILE_PREFIX=${{ env.RESULTS_DIR }}/pnpm-ls_pnpm${{ matrix.pnpm-version }}_node${{ matrix.node-version }}_${{ matrix.os }}' >> $GITHUB_ENV
+        working-directory: ${{ env.DEMO_ROOT_DIR}}/${{ matrix.subject }}
+        shell: bash # don't want to write tht code twice, windows and unix-like
+      - name: Setup Node.js ${{ matrix.node-version }}
+        # see https://github.com/actions/setup-node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Setup PNPM ${{ matrix.pnpm-version }}
+        # see https://github.com/pnpm/action-setup
+        uses: pnpm/action-setup@v2.2.2
+        with:
+          version: ${{ matrix.pnpm-version }}
+      - name: report versions
+        run: |
+          node --version
+          pnpm --version
+      - name: setup demo
+        run: pnpm i --no-frozen-lockfile
+        working-directory: ${{ env.DEMO_ROOT_DIR }}/${{ matrix.subject }}/project
+      - name: pnpm-ls --json --recursive --long
+        # important: the command in use is the same used by the internal builders of this project
+        run: >
+          pnpm --dir project
+          ls --json --recursive --long
+          2> ${{ env.OUT_FILE_PREFIX }}.err.log
+          1> ${{ env.OUT_FILE_PREFIX }}.json
+        working-directory: ${{ env.DEMO_ROOT_DIR}}/${{ matrix.subject }}
+      - name: Artifact RESULTS
+        # see https://github.com/actions/upload-artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ env.RESULTS_ARTIFACT }}
+          path: ${{ env.DEMO_ROOT_DIR}}/*/${{ env.RESULTS_DIR }}
+          if-no-files-found: error

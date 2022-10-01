@@ -1,0 +1,8 @@
+[
+  {
+    "name": "demo-local-deps",
+    "version": "0.0.0",
+    "path": "/Users/runner/work/cyclonedx-node-pnpm/cyclonedx-node-pnpm/demo/local-dependencies/project",
+    "private": true
+  }
+]

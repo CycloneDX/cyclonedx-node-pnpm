@@ -1,0 +1,24 @@
+[
+  {
+    "name": "demo-local-deps",
+    "version": "0.0.0",
+    "path": "/home/runner/work/cyclonedx-node-pnpm/cyclonedx-node-pnpm/demo/local-dependencies/project",
+    "private": true,
+    "dependencies": {
+      "my-local-a": {
+        "from": "my-local-a",
+        "version": "0.0.0",
+        "description": "demo: my-local-a",
+        "homepage": "https://github.com/CycloneDX/cyclonedx-node-npm#readme",
+        "repository": "git+https://github.com/CycloneDX/cyclonedx-node-npm.git",
+        "dependencies": {
+          "my-local-b-off": {
+            "from": "my-local-b-off",
+            "version": "0.0.0",
+            "description": "demo: my-local-b-off - a package with a different name than its dir"
+          }
+        }
+      }
+    }
+  }
+]

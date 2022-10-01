@@ -4,4 +4,4 @@
 !/.npmrc
 !/pnpm-workspace.yaml
 !/README.md
-!/workspaces/
+!/packages/

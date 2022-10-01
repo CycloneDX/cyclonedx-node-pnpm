@@ -1,0 +1,8 @@
+[
+  {
+    "name": "demo-workspaces",
+    "version": "0.0.0",
+    "path": "/home/runner/work/cyclonedx-node-pnpm/cyclonedx-node-pnpm/demo/local-workspaces/project",
+    "private": true
+  }
+]

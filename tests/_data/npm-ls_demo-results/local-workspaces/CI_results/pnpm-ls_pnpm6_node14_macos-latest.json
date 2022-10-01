@@ -1,0 +1,26 @@
+[
+  {
+    "name": "demo-workspaces",
+    "version": "0.0.0",
+    "path": "/Users/runner/work/cyclonedx-node-pnpm/cyclonedx-node-pnpm/demo/local-workspaces/project",
+    "private": true
+  },
+  {
+    "name": "my-local-c",
+    "version": "0.23.42",
+    "path": "/Users/runner/work/cyclonedx-node-pnpm/cyclonedx-node-pnpm/demo/local-workspaces/project/workspaces/my-local",
+    "private": true
+  },
+  {
+    "name": "my-local-a",
+    "version": "0.1.0",
+    "path": "/Users/runner/work/cyclonedx-node-pnpm/cyclonedx-node-pnpm/demo/local-workspaces/project/workspaces/my-local-a",
+    "private": true
+  },
+  {
+    "name": "my-local-b-off",
+    "version": "0.0.0",
+    "path": "/Users/runner/work/cyclonedx-node-pnpm/cyclonedx-node-pnpm/demo/local-workspaces/project/workspaces/my-local-b",
+    "private": true
+  }
+]

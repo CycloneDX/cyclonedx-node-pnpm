@@ -1,0 +1,665 @@
+[
+  {
+    "name": "juice-shop",
+    "version": "14.1.1",
+    "path": "/Users/runner/work/cyclonedx-node-pnpm/cyclonedx-node-pnpm/demo/juice-shop/project",
+    "private": true,
+    "dependencies": {
+      "body-parser": {
+        "from": "body-parser",
+        "version": "1.20.0",
+        "resolved": "https://registry.npmjs.org/body-parser/-/body-parser-1.20.0.tgz",
+        "description": "Node.js body parsing middleware",
+        "homepage": "https://github.com/expressjs/body-parser#readme",
+        "repository": "git+https://github.com/expressjs/body-parser.git"
+      },
+      "check-dependencies": {
+        "from": "check-dependencies",
+        "version": "1.1.0",
+        "resolved": "https://registry.npmjs.org/check-dependencies/-/check-dependencies-1.1.0.tgz",
+        "description": "Checks if currently installed npm/bower dependencies are installed in the exact same versions that are specified in package.json/bower.json",
+        "homepage": "https://github.com/mgol/check-dependencies",
+        "repository": "git+https://github.com/mgol/check-dependencies.git"
+      },
+      "clarinet": {
+        "from": "clarinet",
+        "version": "0.12.5",
+        "resolved": "https://registry.npmjs.org/clarinet/-/clarinet-0.12.5.tgz",
+        "description": "SAX based evented streaming JSON parser in JavaScript (browser and node)",
+        "homepage": "https://github.com/dscape/clarinet",
+        "repository": "git+ssh://git@github.com/dscape/clarinet.git"
+      },
+      "colors": {
+        "from": "colors",
+        "version": "1.4.0",
+        "resolved": "https://registry.npmjs.org/colors/-/colors-1.4.0.tgz",
+        "description": "get colors in your node.js console",
+        "homepage": "https://github.com/Marak/colors.js",
+        "repository": "git+ssh://git@github.com/Marak/colors.js.git"
+      },
+      "compression": {
+        "from": "compression",
+        "version": "1.7.4",
+        "resolved": "https://registry.npmjs.org/compression/-/compression-1.7.4.tgz",
+        "description": "Node.js compression middleware",
+        "homepage": "https://github.com/expressjs/compression#readme",
+        "repository": "git+https://github.com/expressjs/compression.git"
+      },
+      "concurrently": {
+        "from": "concurrently",
+        "version": "5.3.0",
+        "resolved": "https://registry.npmjs.org/concurrently/-/concurrently-5.3.0.tgz",
+        "description": "Run commands concurrently",
+        "homepage": "https://github.com/kimmobrunfeldt/concurrently#readme",
+        "repository": "git+https://github.com/kimmobrunfeldt/concurrently.git"
+      },
+      "config": {
+        "from": "config",
+        "version": "3.3.8",
+        "resolved": "https://registry.npmjs.org/config/-/config-3.3.8.tgz",
+        "description": "Configuration control for production node deployments",
+        "homepage": "http://github.com/node-config/node-config.git",
+        "repository": "git+ssh://git@github.com/node-config/node-config.git"
+      },
+      "cookie-parser": {
+        "from": "cookie-parser",
+        "version": "1.4.6",
+        "resolved": "https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.6.tgz",
+        "description": "Parse HTTP request cookies",
+        "homepage": "https://github.com/expressjs/cookie-parser#readme",
+        "repository": "git+https://github.com/expressjs/cookie-parser.git"
+      },
+      "cors": {
+        "from": "cors",
+        "version": "2.8.5",
+        "resolved": "https://registry.npmjs.org/cors/-/cors-2.8.5.tgz",
+        "description": "Node.js CORS middleware",
+        "homepage": "https://github.com/expressjs/cors#readme",
+        "repository": "git+https://github.com/expressjs/cors.git"
+      },
+      "dottie": {
+        "from": "dottie",
+        "version": "2.0.2",
+        "resolved": "https://registry.npmjs.org/dottie/-/dottie-2.0.2.tgz",
+        "description": "Fast and safe nested object access and manipulation in JavaScript",
+        "homepage": "https://github.com/mickhansen/dottie.js#readme",
+        "repository": "git://github.com/mickhansen/dottie.js.git"
+      },
+      "download": {
+        "from": "download",
+        "version": "8.0.0",
+        "resolved": "https://registry.npmjs.org/download/-/download-8.0.0.tgz",
+        "description": "Download and extract files",
+        "homepage": "https://github.com/kevva/download#readme",
+        "repository": "git+https://github.com/kevva/download.git"
+      },
+      "errorhandler": {
+        "from": "errorhandler",
+        "version": "1.5.1",
+        "resolved": "https://registry.npmjs.org/errorhandler/-/errorhandler-1.5.1.tgz",
+        "description": "Development-only error handler middleware",
+        "homepage": "https://github.com/expressjs/errorhandler#readme",
+        "repository": "git+https://github.com/expressjs/errorhandler.git"
+      },
+      "exif": {
+        "from": "exif",
+        "version": "0.6.0",
+        "resolved": "https://registry.npmjs.org/exif/-/exif-0.6.0.tgz",
+        "description": "A node.js library to extract Exif metadata from images.",
+        "homepage": "https://github.com/gomfunkel/node-exif#readme",
+        "repository": "git+ssh://git@github.com/gomfunkel/node-exif.git"
+      },
+      "express": {
+        "from": "express",
+        "version": "4.18.1",
+        "resolved": "https://registry.npmjs.org/express/-/express-4.18.1.tgz",
+        "description": "Fast, unopinionated, minimalist web framework",
+        "homepage": "http://expressjs.com/",
+        "repository": "git+https://github.com/expressjs/express.git"
+      },
+      "express-ipfilter": {
+        "from": "express-ipfilter",
+        "version": "1.3.1",
+        "resolved": "https://registry.npmjs.org/express-ipfilter/-/express-ipfilter-1.3.1.tgz",
+        "description": "A light-weight IP address based filtering system",
+        "homepage": "https://github.com/jetersen/express-ipfilter#readme",
+        "repository": "git+https://github.com/jetersen/express-ipfilter.git"
+      },
+      "express-jwt": {
+        "from": "express-jwt",
+        "version": "0.1.3",
+        "resolved": "https://registry.npmjs.org/express-jwt/-/express-jwt-0.1.3.tgz",
+        "description": "JWT authentication middleware.",
+        "homepage": "https://github.com/auth0/express-jwt#readme",
+        "repository": "git://github.com/auth0/express-jwt.git"
+      },
+      "express-rate-limit": {
+        "from": "express-rate-limit",
+        "version": "5.5.1",
+        "resolved": "https://registry.npmjs.org/express-rate-limit/-/express-rate-limit-5.5.1.tgz",
+        "description": "Basic IP rate-limiting middleware for Express. Use to limit repeated requests to public APIs and/or endpoints such as password reset.",
+        "homepage": "https://github.com/nfriedly/express-rate-limit",
+        "repository": "git+https://github.com/nfriedly/express-rate-limit.git"
+      },
+      "express-robots-txt": {
+        "from": "express-robots-txt",
+        "version": "0.4.1",
+        "resolved": "https://registry.npmjs.org/express-robots-txt/-/express-robots-txt-0.4.1.tgz",
+        "description": "Express middleware to serve and generate robots.txt",
+        "homepage": "https://github.com/modosc/express-robots-txt",
+        "repository": "git+https://github.com/modosc/express-robots-txt.git"
+      },
+      "express-security.txt": {
+        "from": "express-security.txt",
+        "version": "2.0.0",
+        "resolved": "https://registry.npmjs.org/express-security.txt/-/express-security.txt-2.0.0.tgz",
+        "description": "",
+        "homepage": "https://github.com/gergelyke/express-security.txt#readme",
+        "repository": "git+https://github.com/gergelyke/express-security.txt.git"
+      },
+      "feature-policy": {
+        "from": "feature-policy",
+        "version": "0.5.0",
+        "resolved": "https://registry.npmjs.org/feature-policy/-/feature-policy-0.5.0.tgz",
+        "description": "Middleware to set the Feature-Policy HTTP header",
+        "homepage": "https://helmetjs.github.io/docs/feature-policy/",
+        "repository": "git://github.com/helmetjs/feature-policy.git"
+      },
+      "file-stream-rotator": {
+        "from": "file-stream-rotator",
+        "version": "0.5.7",
+        "resolved": "https://registry.npmjs.org/file-stream-rotator/-/file-stream-rotator-0.5.7.tgz",
+        "description": "Automated stream rotation useful for log files",
+        "homepage": "https://github.com/rogerc/file-stream-rotator#readme",
+        "repository": "git://github.com/rogerc/file-stream-rotator.git"
+      },
+      "file-type": {
+        "from": "file-type",
+        "version": "16.5.4",
+        "resolved": "https://registry.npmjs.org/file-type/-/file-type-16.5.4.tgz",
+        "description": "Detect the file type of a Buffer/Uint8Array/ArrayBuffer",
+        "homepage": "https://github.com/sindresorhus/file-type#readme",
+        "repository": "git+https://github.com/sindresorhus/file-type.git"
+      },
+      "filesniffer": {
+        "from": "filesniffer",
+        "version": "1.0.3",
+        "resolved": "https://registry.npmjs.org/filesniffer/-/filesniffer-1.0.3.tgz",
+        "description": "Search files the easy way.",
+        "homepage": "https://github.com/nspragg/filesniffer",
+        "repository": "git+https://github.com/nspragg/filesniffer.git"
+      },
+      "finale-rest": {
+        "from": "finale-rest",
+        "version": "1.1.1",
+        "resolved": "https://registry.npmjs.org/finale-rest/-/finale-rest-1.1.1.tgz",
+        "description": "Create REST resources and controllers with Sequelize and Express or Restify",
+        "homepage": "https://github.com/tommybananas/finale#readme",
+        "repository": "git+https://github.com/tommybananas/finale.git"
+      },
+      "fs-extra": {
+        "from": "fs-extra",
+        "version": "9.1.0",
+        "resolved": "https://registry.npmjs.org/fs-extra/-/fs-extra-9.1.0.tgz",
+        "description": "fs-extra contains methods that aren't included in the vanilla Node.js fs package. Such as recursive mkdir, copy, and remove.",
+        "homepage": "https://github.com/jprichardson/node-fs-extra",
+        "repository": "git+https://github.com/jprichardson/node-fs-extra.git"
+      },
+      "fuzzball": {
+        "from": "fuzzball",
+        "version": "1.4.0",
+        "resolved": "https://registry.npmjs.org/fuzzball/-/fuzzball-1.4.0.tgz",
+        "description": "Fuzzy string matching algorithms and utilities, port of the fuzzywuzzy Python library.",
+        "homepage": "https://github.com/nol13/fuzzball.js#readme",
+        "repository": "git+https://github.com/nol13/fuzzball.js.git"
+      },
+      "glob": {
+        "from": "glob",
+        "version": "7.2.3",
+        "resolved": "https://registry.npmjs.org/glob/-/glob-7.2.3.tgz",
+        "description": "a little globber",
+        "homepage": "https://github.com/isaacs/node-glob#readme",
+        "repository": "git://github.com/isaacs/node-glob.git"
+      },
+      "graceful-fs": {
+        "from": "graceful-fs",
+        "version": "4.2.10",
+        "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz",
+        "description": "A drop-in replacement for fs, making various improvements.",
+        "homepage": "https://github.com/isaacs/node-graceful-fs#readme",
+        "repository": "git+https://github.com/isaacs/node-graceful-fs.git"
+      },
+      "grunt": {
+        "from": "grunt",
+        "version": "1.5.3",
+        "resolved": "https://registry.npmjs.org/grunt/-/grunt-1.5.3.tgz",
+        "description": "The JavaScript Task Runner",
+        "homepage": "https://gruntjs.com/",
+        "repository": "git+https://github.com/gruntjs/grunt.git"
+      },
+      "grunt-contrib-compress": {
+        "from": "grunt-contrib-compress",
+        "version": "1.6.0",
+        "resolved": "https://registry.npmjs.org/grunt-contrib-compress/-/grunt-contrib-compress-1.6.0.tgz",
+        "description": "Compress files and folders",
+        "homepage": "https://github.com/gruntjs/grunt-contrib-compress#readme",
+        "repository": "git+https://github.com/gruntjs/grunt-contrib-compress.git"
+      },
+      "grunt-replace-json": {
+        "from": "grunt-replace-json",
+        "version": "0.1.0",
+        "resolved": "https://registry.npmjs.org/grunt-replace-json/-/grunt-replace-json-0.1.0.tgz",
+        "description": "Updates attributes of json files.",
+        "homepage": "https://github.com/exo-dev/grunt-replace-json",
+        "repository": "git+https://github.com/exo-dev/grunt-replace-json.git"
+      },
+      "hashids": {
+        "from": "hashids",
+        "version": "2.2.10",
+        "resolved": "https://registry.npmjs.org/hashids/-/hashids-2.2.10.tgz",
+        "description": "Generate YouTube-like ids from numbers. Use Hashids when you do not want to expose your database ids to the user.",
+        "homepage": "http://hashids.org/javascript",
+        "repository": "git+https://github.com/niieani/hashids.js.git"
+      },
+      "hbs": {
+        "from": "hbs",
+        "version": "4.2.0",
+        "resolved": "https://registry.npmjs.org/hbs/-/hbs-4.2.0.tgz",
+        "description": "Express.js template engine plugin for Handlebars",
+        "homepage": "https://github.com/pillarjs/hbs#readme",
+        "repository": "git+https://github.com/pillarjs/hbs.git"
+      },
+      "helmet": {
+        "from": "helmet",
+        "version": "4.6.0",
+        "resolved": "https://registry.npmjs.org/helmet/-/helmet-4.6.0.tgz",
+        "description": "help secure Express/Connect apps with various HTTP headers",
+        "homepage": "https://helmetjs.github.io/",
+        "repository": "git://github.com/helmetjs/helmet.git"
+      },
+      "html-entities": {
+        "from": "html-entities",
+        "version": "1.4.0",
+        "resolved": "https://registry.npmjs.org/html-entities/-/html-entities-1.4.0.tgz",
+        "description": "Faster HTML entities encode/decode library.",
+        "homepage": "https://github.com/mdevils/node-html-entities#readme",
+        "repository": "git+https://github.com/mdevils/node-html-entities.git"
+      },
+      "i18n": {
+        "from": "i18n",
+        "version": "0.11.1",
+        "resolved": "https://registry.npmjs.org/i18n/-/i18n-0.11.1.tgz",
+        "description": "lightweight translation module with dynamic json storage",
+        "homepage": "http://github.com/mashpie/i18n-node",
+        "repository": "git+ssh://git@github.com/mashpie/i18n-node.git"
+      },
+      "is-docker": {
+        "from": "is-docker",
+        "version": "2.2.1",
+        "resolved": "https://registry.npmjs.org/is-docker/-/is-docker-2.2.1.tgz",
+        "description": "Check if the process is running inside a Docker container",
+        "homepage": "https://github.com/sindresorhus/is-docker#readme",
+        "repository": "git+https://github.com/sindresorhus/is-docker.git"
+      },
+      "is-heroku": {
+        "from": "is-heroku",
+        "version": "2.0.0",
+        "resolved": "https://registry.npmjs.org/is-heroku/-/is-heroku-2.0.0.tgz",
+        "description": "Check if your code is running on Heroku",
+        "homepage": "https://github.com/sindresorhus/is-heroku#readme",
+        "repository": "git+https://github.com/sindresorhus/is-heroku.git"
+      },
+      "is-windows": {
+        "from": "is-windows",
+        "version": "1.0.2",
+        "resolved": "https://registry.npmjs.org/is-windows/-/is-windows-1.0.2.tgz",
+        "description": "Returns true if the platform is windows. UMD module, works with node.js, commonjs, browser, AMD, electron, etc.",
+        "homepage": "https://github.com/jonschlinkert/is-windows",
+        "repository": "git+https://github.com/jonschlinkert/is-windows.git"
+      },
+      "js-yaml": {
+        "from": "js-yaml",
+        "version": "3.14.1",
+        "resolved": "https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.1.tgz",
+        "description": "YAML 1.2 parser and serializer",
+        "homepage": "https://github.com/nodeca/js-yaml",
+        "repository": "git+https://github.com/nodeca/js-yaml.git"
+      },
+      "jsonwebtoken": {
+        "from": "jsonwebtoken",
+        "version": "0.4.0",
+        "resolved": "https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-0.4.0.tgz",
+        "description": "JSON Web Token implementation (symmetric and asymmetric)",
+        "homepage": "https://github.com/auth0/node-jsonwebtoken#readme",
+        "repository": "git+https://github.com/auth0/node-jsonwebtoken.git"
+      },
+      "jssha": {
+        "from": "jssha",
+        "version": "3.2.0",
+        "resolved": "https://registry.npmjs.org/jssha/-/jssha-3.2.0.tgz",
+        "description": "jsSHA implements the complete Secure Hash Standard (SHA) family (SHA-1, SHA-224/256/384/512, SHA3-224/256/384/512, SHAKE128/256, cSHAKE128/256, and KMAC128/256) with HMAC",
+        "homepage": "https://github.com/Caligatio/jsSHA",
+        "repository": "git+https://github.com/Caligatio/jsSHA.git"
+      },
+      "juicy-chat-bot": {
+        "from": "juicy-chat-bot",
+        "version": "0.6.5",
+        "resolved": "https://registry.npmjs.org/juicy-chat-bot/-/juicy-chat-bot-0.6.5.tgz",
+        "description": "A light-weight and totally \"secure\" library to easily deploy simple chat bots",
+        "homepage": "https://owasp-juice.shop",
+        "repository": "git+https://github.com/juice-shop/juicy-chat-bot.git"
+      },
+      "libxmljs2": {
+        "from": "libxmljs2",
+        "version": "0.30.1",
+        "resolved": "https://registry.npmjs.org/libxmljs2/-/libxmljs2-0.30.1.tgz",
+        "description": "libxml bindings for v8 javascript engine",
+        "homepage": "https://github.com/marudor/libxmljs2#readme",
+        "repository": "git+ssh://git@github.com/marudor/libxmljs2.git"
+      },
+      "marsdb": {
+        "from": "marsdb",
+        "version": "0.6.11",
+        "resolved": "https://registry.npmjs.org/marsdb/-/marsdb-0.6.11.tgz",
+        "description": "MarsDB is a lightweight client-side MongoDB-like database, Promise based, written in ES6",
+        "homepage": "https://github.com/c58/marsdb",
+        "repository": "git+ssh://git@github.com/c58/marsdb.git"
+      },
+      "morgan": {
+        "from": "morgan",
+        "version": "1.10.0",
+        "resolved": "https://registry.npmjs.org/morgan/-/morgan-1.10.0.tgz",
+        "description": "HTTP request logger middleware for node.js",
+        "homepage": "https://github.com/expressjs/morgan#readme",
+        "repository": "git+https://github.com/expressjs/morgan.git"
+      },
+      "multer": {
+        "from": "multer",
+        "version": "1.4.4",
+        "resolved": "https://registry.npmjs.org/multer/-/multer-1.4.4.tgz",
+        "description": "Middleware for handling `multipart/form-data`.",
+        "homepage": "https://github.com/expressjs/multer#readme",
+        "repository": "git+https://github.com/expressjs/multer.git"
+      },
+      "node-pre-gyp": {
+        "from": "node-pre-gyp",
+        "version": "0.15.0",
+        "resolved": "https://registry.npmjs.org/node-pre-gyp/-/node-pre-gyp-0.15.0.tgz",
+        "description": "Node.js native addon binary install tool",
+        "homepage": "https://github.com/mapbox/node-pre-gyp#readme",
+        "repository": "git://github.com/mapbox/node-pre-gyp.git"
+      },
+      "notevil": {
+        "from": "notevil",
+        "version": "1.3.3",
+        "resolved": "https://registry.npmjs.org/notevil/-/notevil-1.3.3.tgz",
+        "description": "Evalulate javascript like the built-in eval() method but safely",
+        "homepage": "https://github.com/mmckegg/notevil#readme",
+        "repository": "git+https://github.com/mmckegg/notevil.git"
+      },
+      "on-finished": {
+        "from": "on-finished",
+        "version": "2.4.1",
+        "resolved": "https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz",
+        "description": "Execute a callback when a request closes, finishes, or errors",
+        "homepage": "https://github.com/jshttp/on-finished#readme",
+        "repository": "git+https://github.com/jshttp/on-finished.git"
+      },
+      "otplib": {
+        "from": "otplib",
+        "version": "12.0.1",
+        "resolved": "https://registry.npmjs.org/otplib/-/otplib-12.0.1.tgz",
+        "description": "HMAC-based (HOTP) and Time-based (TOTP) One-Time Password library",
+        "homepage": "https://yeojz.otplib.dev",
+        "repository": "git+https://github.com/yeojz/otplib.git"
+      },
+      "pdfkit": {
+        "from": "pdfkit",
+        "version": "0.11.0",
+        "resolved": "https://registry.npmjs.org/pdfkit/-/pdfkit-0.11.0.tgz",
+        "description": "A PDF generation library for Node.js",
+        "homepage": "http://pdfkit.org/",
+        "repository": "git+https://github.com/foliojs/pdfkit.git"
+      },
+      "portscanner": {
+        "from": "portscanner",
+        "version": "2.2.0",
+        "resolved": "https://registry.npmjs.org/portscanner/-/portscanner-2.2.0.tgz",
+        "description": "Asynchronous port scanner for Node.js",
+        "homepage": "https://github.com/baalexander/node-portscanner",
+        "repository": "git://github.com/baalexander/node-portscanner.git"
+      },
+      "prom-client": {
+        "from": "prom-client",
+        "version": "12.0.0",
+        "resolved": "https://registry.npmjs.org/prom-client/-/prom-client-12.0.0.tgz",
+        "description": "Client for prometheus",
+        "homepage": "https://github.com/siimon/prom-client",
+        "repository": "git+ssh://git@github.com/siimon/prom-client.git"
+      },
+      "pug": {
+        "from": "pug",
+        "version": "3.0.2",
+        "resolved": "https://registry.npmjs.org/pug/-/pug-3.0.2.tgz",
+        "description": "A clean, whitespace-sensitive template language for writing HTML",
+        "homepage": "https://pugjs.org",
+        "repository": "git+https://github.com/pugjs/pug.git#master"
+      },
+      "replace": {
+        "from": "replace",
+        "version": "1.2.1",
+        "resolved": "https://registry.npmjs.org/replace/-/replace-1.2.1.tgz",
+        "description": "Command line search and replace utility",
+        "homepage": "https://github.com/ALMaclaine/replace#readme",
+        "repository": "git+https://github.com/ALMaclaine/replace.git"
+      },
+      "request": {
+        "from": "request",
+        "version": "2.88.2",
+        "resolved": "https://registry.npmjs.org/request/-/request-2.88.2.tgz",
+        "description": "Simplified HTTP request client.",
+        "homepage": "https://github.com/request/request#readme",
+        "repository": "git+https://github.com/request/request.git"
+      },
+      "sanitize-filename": {
+        "from": "sanitize-filename",
+        "version": "1.6.3",
+        "resolved": "https://registry.npmjs.org/sanitize-filename/-/sanitize-filename-1.6.3.tgz",
+        "description": "Sanitize a string for use as a filename",
+        "homepage": "https://github.com/parshap/node-sanitize-filename#readme",
+        "repository": "git+ssh://git@github.com/parshap/node-sanitize-filename.git"
+      },
+      "sanitize-html": {
+        "from": "sanitize-html",
+        "version": "1.4.2",
+        "resolved": "https://registry.npmjs.org/sanitize-html/-/sanitize-html-1.4.2.tgz",
+        "description": "Clean up user-submitted HTML, preserving whitelisted elements and whitelisted attributes on a per-element basis",
+        "homepage": "https://github.com/punkave/sanitize-html#readme",
+        "repository": "git+https://github.com/punkave/sanitize-html.git"
+      },
+      "semver": {
+        "from": "semver",
+        "version": "7.3.7",
+        "resolved": "https://registry.npmjs.org/semver/-/semver-7.3.7.tgz",
+        "description": "The semantic version parser used by npm.",
+        "homepage": "https://github.com/npm/node-semver#readme",
+        "repository": "git+https://github.com/npm/node-semver.git"
+      },
+      "sequelize": {
+        "from": "sequelize",
+        "version": "6.23.2",
+        "resolved": "https://registry.npmjs.org/sequelize/-/sequelize-6.23.2.tgz",
+        "description": "Sequelize is a promise-based Node.js ORM tool for Postgres, MySQL, MariaDB, SQLite, Microsoft SQL Server, Amazon Redshift and Snowflake’s Data Cloud. It features solid transaction support, relations, eager and lazy loading, read replication and more.",
+        "homepage": "https://sequelize.org/",
+        "repository": "git+https://github.com/sequelize/sequelize.git"
+      },
+      "serve-index": {
+        "from": "serve-index",
+        "version": "1.9.1",
+        "resolved": "https://registry.npmjs.org/serve-index/-/serve-index-1.9.1.tgz",
+        "description": "Serve directory listings",
+        "homepage": "https://github.com/expressjs/serve-index#readme",
+        "repository": "git+https://github.com/expressjs/serve-index.git"
+      },
+      "socket.io": {
+        "from": "socket.io",
+        "version": "3.1.2",
+        "resolved": "https://registry.npmjs.org/socket.io/-/socket.io-3.1.2.tgz",
+        "description": "node.js realtime framework server",
+        "homepage": "https://github.com/socketio/socket.io#readme",
+        "repository": "git://github.com/socketio/socket.io.git"
+      },
+      "sqlite3": {
+        "from": "sqlite3",
+        "version": "5.1.1",
+        "resolved": "https://registry.npmjs.org/sqlite3/-/sqlite3-5.1.1.tgz",
+        "description": "Asynchronous, non-blocking SQLite3 bindings",
+        "homepage": "https://github.com/TryGhost/node-sqlite3",
+        "repository": "git+https://github.com/TryGhost/node-sqlite3.git"
+      },
+      "svg-captcha": {
+        "from": "svg-captcha",
+        "version": "1.4.0",
+        "resolved": "https://registry.npmjs.org/svg-captcha/-/svg-captcha-1.4.0.tgz",
+        "description": "generate svg captcha in node.js or express.js",
+        "homepage": "https://github.com/steambap/svg-captcha#readme",
+        "repository": "git+https://github.com/steambap/svg-captcha.git"
+      },
+      "swagger-ui-express": {
+        "from": "swagger-ui-express",
+        "version": "4.5.0",
+        "resolved": "https://registry.npmjs.org/swagger-ui-express/-/swagger-ui-express-4.5.0.tgz",
+        "description": "Swagger UI Express",
+        "homepage": "https://github.com/scottie1984/swagger-ui-express",
+        "repository": "git+ssh://git@github.com/scottie1984/swagger-ui-express.git"
+      },
+      "ts-node-dev": {
+        "from": "ts-node-dev",
+        "version": "1.1.8",
+        "resolved": "https://registry.npmjs.org/ts-node-dev/-/ts-node-dev-1.1.8.tgz",
+        "description": "Compiles your TS app and restarts when files are modified.",
+        "homepage": "https://github.com/whitecolor/ts-node-dev#readme",
+        "repository": "git+ssh://git@github.com/whitecolor/ts-node-dev.git"
+      },
+      "unzipper": {
+        "from": "unzipper",
+        "version": "0.9.15",
+        "resolved": "https://registry.npmjs.org/unzipper/-/unzipper-0.9.15.tgz",
+        "description": "Unzip cross-platform streaming API ",
+        "homepage": "https://github.com/ZJONSSON/node-unzipper#readme",
+        "repository": "git+https://github.com/ZJONSSON/node-unzipper.git"
+      },
+      "winston": {
+        "from": "winston",
+        "version": "3.8.2",
+        "resolved": "https://registry.npmjs.org/winston/-/winston-3.8.2.tgz",
+        "description": "A logger for just about everything.",
+        "homepage": "https://github.com/winstonjs/winston#readme",
+        "repository": "git+https://github.com/winstonjs/winston.git"
+      },
+      "yaml-schema-validator": {
+        "from": "yaml-schema-validator",
+        "version": "1.2.3",
+        "resolved": "https://registry.npmjs.org/yaml-schema-validator/-/yaml-schema-validator-1.2.3.tgz",
+        "description": "Schema validator for yaml files",
+        "homepage": "https://github.com/ketanTechracers/schema-validator#readme",
+        "repository": "git+https://github.com/ketanTechracers/schema-validator.git"
+      },
+      "z85": {
+        "from": "z85",
+        "version": "0.0.2",
+        "resolved": "https://registry.npmjs.org/z85/-/z85-0.0.2.tgz",
+        "description": "ZeroMQ Base-85 Encoding",
+        "homepage": "https://github.com/msealand/z85.node",
+        "repository": "git+https://github.com/msealand/z85.node.git"
+      }
+    },
+    "unsavedDependencies": {
+      "@babel/types": {
+        "from": "@babel/types",
+        "version": "link:node_modules/.pnpm/@babel+types@7.19.3/node_modules/@babel/types",
+        "description": "[Could not find additional info about this dependency]"
+      },
+      "@types/component-emitter": {
+        "from": "@types/component-emitter",
+        "version": "link:node_modules/.pnpm/@types+component-emitter@1.2.11/node_modules/@types/component-emitter",
+        "description": "[Could not find additional info about this dependency]"
+      },
+      "@types/cookie": {
+        "from": "@types/cookie",
+        "version": "link:node_modules/.pnpm/@types+cookie@0.4.1/node_modules/@types/cookie",
+        "description": "[Could not find additional info about this dependency]"
+      },
+      "@types/cors": {
+        "from": "@types/cors",
+        "version": "link:node_modules/.pnpm/@types+cors@2.8.12/node_modules/@types/cors",
+        "description": "[Could not find additional info about this dependency]"
+      },
+      "@types/debug": {
+        "from": "@types/debug",
+        "version": "link:node_modules/.pnpm/@types+debug@4.1.7/node_modules/@types/debug",
+        "description": "[Could not find additional info about this dependency]"
+      },
+      "@types/keyv": {
+        "from": "@types/keyv",
+        "version": "link:node_modules/.pnpm/@types+keyv@3.1.4/node_modules/@types/keyv",
+        "description": "[Could not find additional info about this dependency]"
+      },
+      "@types/ms": {
+        "from": "@types/ms",
+        "version": "link:node_modules/.pnpm/@types+ms@0.7.31/node_modules/@types/ms",
+        "description": "[Could not find additional info about this dependency]"
+      },
+      "@types/node": {
+        "from": "@types/node",
+        "version": "link:node_modules/.pnpm/@types+node@18.7.23/node_modules/@types/node",
+        "description": "[Could not find additional info about this dependency]"
+      },
+      "@types/responselike": {
+        "from": "@types/responselike",
+        "version": "link:node_modules/.pnpm/@types+responselike@1.0.0/node_modules/@types/responselike",
+        "description": "[Could not find additional info about this dependency]"
+      },
+      "@types/strip-bom": {
+        "from": "@types/strip-bom",
+        "version": "link:node_modules/.pnpm/@types+strip-bom@3.0.0/node_modules/@types/strip-bom",
+        "description": "[Could not find additional info about this dependency]"
+      },
+      "@types/strip-json-comments": {
+        "from": "@types/strip-json-comments",
+        "version": "link:node_modules/.pnpm/@types+strip-json-comments@0.0.30/node_modules/@types/strip-json-comments",
+        "description": "[Could not find additional info about this dependency]"
+      },
+      "@types/validator": {
+        "from": "@types/validator",
+        "version": "link:node_modules/.pnpm/@types+validator@13.7.7/node_modules/@types/validator",
+        "description": "[Could not find additional info about this dependency]"
+      },
+      "check-types": {
+        "from": "check-types",
+        "version": "link:node_modules/.pnpm/check-types@6.0.0/node_modules/check-types",
+        "description": "[Could not find additional info about this dependency]"
+      },
+      "doctypes": {
+        "from": "doctypes",
+        "version": "link:node_modules/.pnpm/doctypes@1.1.0/node_modules/doctypes",
+        "description": "[Could not find additional info about this dependency]"
+      },
+      "mime-types": {
+        "from": "mime-types",
+        "version": "link:node_modules/.pnpm/mime-types@2.1.35/node_modules/mime-types",
+        "description": "[Could not find additional info about this dependency]"
+      },
+      "token-types": {
+        "from": "token-types",
+        "version": "link:node_modules/.pnpm/token-types@4.2.1/node_modules/token-types",
+        "description": "[Could not find additional info about this dependency]"
+      },
+      "typescript": {
+        "from": "typescript",
+        "version": "link:node_modules/.pnpm/typescript@4.8.4/node_modules/typescript",
+        "description": "[Could not find additional info about this dependency]"
+      }
+    }
+  }
+]

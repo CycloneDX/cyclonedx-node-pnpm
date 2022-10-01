@@ -1,0 +1,18 @@
+[
+  {
+    "name": "demo-bundled-deps",
+    "version": "0.0.0",
+    "path": "/home/runner/work/cyclonedx-node-pnpm/cyclonedx-node-pnpm/demo/bundled-dependencies/project",
+    "private": true,
+    "dependencies": {
+      "bundle-dependencies": {
+        "from": "bundle-dependencies",
+        "version": "1.0.2",
+        "resolved": "https://registry.npmjs.org/bundle-dependencies/-/bundle-dependencies-1.0.2.tgz",
+        "description": "Generates bundledDependencies package.json value using values of the dependencies property.",
+        "homepage": "https://github.com/gajus/bundle-dependencies#readme",
+        "repository": "git+https://github.com/gajus/bundle-dependencies.git"
+      }
+    }
+  }
+]

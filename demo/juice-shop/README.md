@@ -12,6 +12,8 @@ The package manifest is based on
 
 ## output
 
+(i) see [demo snapshots](../../tests/_data/pnpm-ls_demo-results/juice-shop).
+
 Output of `pnpm ls --json ...` look like this:
 
 ```json5

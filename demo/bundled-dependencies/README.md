@@ -17,6 +17,8 @@ ships with bundled version of `yargs`.
 
 ## output
 
+(i) see [demo snapshots](../../tests/_data/pnpm-ls_demo-results/bundled-dependencies).
+
 Output of `pnpm ls --json ...` look like this:
 
 ```json5

@@ -10,6 +10,8 @@ Install local packages/dependencies and see how they behave.
 
 ## output
 
+(i) see [demo snapshots](../../tests/_data/pnpm-ls_demo-results/local-dependencies).
+
 Output of `pnpm ls --json ...` look like this:
 
 ```json5

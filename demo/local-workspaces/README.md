@@ -5,12 +5,20 @@
 Install local workspaces and see how they behave.
 ## remarks
 
-* ... TBD ...
+* direct dependencies in workspaces are not listed at all
+* neither are transitive workspace dependencies
 
 ## output
 
 Output of `pnpm ls --json ...` look like this:
 
 ```json5
-// TODO
+[
+  {
+    "name": "demo-workspaces",
+    "version": "0.0.0",
+    "path": ".../demo/local-workspaces/project",
+    "private": true
+  }
+]
 ```

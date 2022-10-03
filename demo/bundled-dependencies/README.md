@@ -13,12 +13,29 @@ ships with bundled version of `yargs`.
 
 ## remarks
 
-* ... TBD ...
+* shipped/bundled dependencies are not listed at all
 
 ## output
 
 Output of `pnpm ls --json ...` look like this:
 
 ```json5
-// TODO
+[
+  {
+    "name": "demo-bundled-deps",
+    "version": "0.0.0",
+    "path": ".../demo/bundled-dependencies/project",
+    "private": true,
+    "dependencies": {
+      "bundle-dependencies": {
+        "from": "bundle-dependencies",
+        "version": "1.0.2",
+        "resolved": "https://registry.npmjs.org/bundle-dependencies/-/bundle-dependencies-1.0.2.tgz",
+        "description": "Generates bundledDependencies package.json value using values of the dependencies property.",
+        "homepage": "https://github.com/gajus/bundle-dependencies#readme",
+        "repository": "git+https://github.com/gajus/bundle-dependencies.git"
+      }
+    }
+  }
+]
 ```

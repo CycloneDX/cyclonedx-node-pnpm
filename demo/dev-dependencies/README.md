@@ -6,12 +6,29 @@ Install local workspaces and see how they behave.
 
 ## remarks
 
-* ... TBD ...
+* the dependencies are listed under `devDependencies`.
 
 ## output
 
 Output of `pnpm ls --json ...` look like this:
 
 ```json5
-// TODO
+[
+  {
+    "name": "demo-dev-dependencies",
+    "version": "0.0.0",
+    "path": ".../demo/dev-dependencies/project",
+    "private": true,
+    "devDependencies": {
+      "@types/node": {
+        "from": "@types/node",
+        "version": "18.7.23",
+        "resolved": "https://registry.npmjs.org/@types/node/-/node-18.7.23.tgz",
+        "description": "TypeScript definitions for Node.js",
+        "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node",
+        "repository": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      }
+    }
+  }
+]
 ```

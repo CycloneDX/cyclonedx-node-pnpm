@@ -10,6 +10,12 @@
         "version": "1.0.2",
         "resolved": "https://registry.npmjs.org/bundle-dependencies/-/bundle-dependencies-1.0.2.tgz",
         "description": "Generates bundledDependencies package.json value using values of the dependencies property.",
+        "license": "BSD-3-Clause",
+        "author": {
+          "name": "Gajus Kuizinas",
+          "email": "gajus@gajus.com",
+          "url": "http://gajus.com"
+        },
         "homepage": "https://github.com/gajus/bundle-dependencies#readme",
         "repository": "git+https://github.com/gajus/bundle-dependencies.git"
       }

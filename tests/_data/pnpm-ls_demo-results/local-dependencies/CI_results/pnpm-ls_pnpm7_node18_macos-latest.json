@@ -9,13 +9,15 @@
         "from": "my-local-a",
         "version": "0.0.0",
         "description": "demo: my-local-a",
-        "homepage": "https://github.com/CycloneDX/cyclonedx-node-npm#readme",
-        "repository": "git+https://github.com/CycloneDX/cyclonedx-node-npm.git",
+        "license": "Apache-2.0",
+        "homepage": "https://github.com/CycloneDX/cyclonedx-node-pnpm#readme",
+        "repository": "git+https://github.com/CycloneDX/cyclonedx-node-pnpm.git",
         "dependencies": {
           "my-local-b-off": {
             "from": "my-local-b-off",
             "version": "0.0.0",
-            "description": "demo: my-local-b-off - a package with a different name than its dir"
+            "description": "demo: my-local-b-off - a package with a different name than its dir",
+            "license": "Apache-2.0"
           }
         }
       }

@@ -7,8 +7,8 @@
     "devDependencies": {
       "@types/node": {
         "from": "@types/node",
-        "version": "18.7.23",
-        "resolved": "https://registry.npmjs.org/@types/node/-/node-18.7.23.tgz",
+        "version": "18.14.1",
+        "resolved": "https://registry.npmjs.org/@types/node/-/node-18.14.1.tgz",
         "description": "TypeScript definitions for Node.js",
         "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node",
         "repository": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git"

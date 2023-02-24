@@ -26,8 +26,8 @@ Output of `pnpm ls --json ...` look like this:
         "from": "my-local-a",
         "version": "0.0.0",
         "description": "demo: my-local-a",
-        "homepage": "https://github.com/CycloneDX/cyclonedx-node-npm#readme",
-        "repository": "git+https://github.com/CycloneDX/cyclonedx-node-npm.git",
+        "homepage": "https://github.com/CycloneDX/cyclonedx-node-pnpm#readme",
+        "repository": "git+https://github.com/CycloneDX/cyclonedx-node-pnpm.git",
         "dependencies": {
           "my-local-b-off": {
             "from": "my-local-b-off",

@@ -32,9 +32,9 @@ jobs:
         subject:
           - bundled-dependencies
           - dev-dependencies
+          - juice-shop
           - local-dependencies
           - local-workspaces
-          - juice-shop
         pnpm-version:
           - '7'      # Latest
           - '6'      # Legacy

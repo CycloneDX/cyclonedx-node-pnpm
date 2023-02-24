@@ -70,7 +70,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Setup PNPM ${{ matrix.pnpm-version }}
         # see https://github.com/pnpm/action-setup
-        uses: pnpm/action-setup@v2.2.2
+        uses: pnpm/action-setup@v2
         with:
           version: ${{ matrix.pnpm-version }}
       - name: report versions

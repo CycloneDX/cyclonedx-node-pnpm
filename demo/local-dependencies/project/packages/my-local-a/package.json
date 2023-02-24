@@ -6,7 +6,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CycloneDX/cyclonedx-node-npm.git",
+    "url": "git+https://github.com/CycloneDX/cyclonedx-node-pnpm.git",
     "directory": "demo/local-deps/project/packages/my-local-a"
   },
   "dependencies": {

@@ -4,9 +4,6 @@
   "private": true,
   "version": "0.0.0",
   "license": "Apache-2.0",
-  "workspaces": [
-    "workspaces/*"
-  ],
   "devDependencies": {
     "@types/node": ">=16"
   }

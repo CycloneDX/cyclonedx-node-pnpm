@@ -32,18 +32,18 @@ jobs:
         subject:
           - bundled-dependencies
           - dev-dependencies
+          - juice-shop
           - local-dependencies
           - local-workspaces
-          - juice-shop
         pnpm-version:
           - '7'      # Latest
           - '6'      # Legacy
         node-version:
           ## action based on https://github.com/actions/node-versions/releases
           ## see also: https://nodejs.org/en/about/releases/
-          - '18'      # Current
-          - '16'      # Active LTS
-          - '14'      # Maintenance LTS
+          - '18'      # Active LTS
+          - '16'
+          - '14'
         os:
           - ubuntu-latest
           - windows-latest
@@ -70,7 +70,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Setup PNPM ${{ matrix.pnpm-version }}
         # see https://github.com/pnpm/action-setup
-        uses: pnpm/action-setup@v2.2.2
+        uses: pnpm/action-setup@v2
         with:
           version: ${{ matrix.pnpm-version }}
       - name: report versions
@@ -80,11 +80,11 @@ jobs:
       - name: setup demo
         run: pnpm i --no-frozen-lockfile
         working-directory: ${{ env.DEMO_ROOT_DIR }}/${{ matrix.subject }}/project
-      - name: pnpm-ls --json --long --depth
+      - name: pnpm-ls --json --long --depth Infinity
         # important: the command in use is the same used by the internal builders of this project
         run: >
           pnpm --dir project
-          ls --json --long --depth
+          ls --json --long --depth Infinity
           2> ${{ env.OUT_FILE_PREFIX }}.err.log
           1> ${{ env.OUT_FILE_PREFIX }}.json
         working-directory: ${{ env.DEMO_ROOT_DIR}}/${{ matrix.subject }}

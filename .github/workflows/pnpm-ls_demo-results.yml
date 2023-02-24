@@ -80,11 +80,11 @@ jobs:
       - name: setup demo
         run: pnpm i --no-frozen-lockfile
         working-directory: ${{ env.DEMO_ROOT_DIR }}/${{ matrix.subject }}/project
-      - name: pnpm-ls --json --long --depth
+      - name: pnpm-ls --json --long --depth Infinity
         # important: the command in use is the same used by the internal builders of this project
         run: >
           pnpm --dir project
-          ls --json --long --depth
+          ls --json --long --depth Infinity
           2> ${{ env.OUT_FILE_PREFIX }}.err.log
           1> ${{ env.OUT_FILE_PREFIX }}.json
         working-directory: ${{ env.DEMO_ROOT_DIR}}/${{ matrix.subject }}

@@ -20,8 +20,8 @@ Development will happen in branch [`1.0-dev`](https://github.com/CycloneDX/cyclo
 
 ## Requirements
 
-* `node` >= `14`
-* `pnpm` in range `6 - 7`
+* `node` >= `16`
+* `pnpm` in range `7 - 8`
 
 ## Internals
 

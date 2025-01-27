@@ -1,3 +1,5 @@
+# CycloneDX SBOM for
+
 [![shield_license]][license_file]  
 [![shield_website]][link_website]
 [![shield_slack]][link_slack]
@@ -5,8 +7,6 @@
 [![shield_twitter-follow]][link_twitter]
 
 ----
-
-# cyclonedx-pnpm
 
 Create [CycloneDX] Software Bill of Materials (SBOM) from  _[pnpm]_ projects.
 

@@ -1,4 +1,4 @@
-# CycloneDX SBOM for
+# CycloneDX SBOM for pnpm
 
 [![shield_license]][license_file]  
 [![shield_website]][link_website]

@@ -17,6 +17,8 @@ on:
   #    - '.github/workflows/pnpm-ls_demo-results.yml' # this file
   workflow_dispatch:
 
+permissions: {}
+
 env:
   DEMO_ROOT_DIR: demo
   RESULTS_DIR: CI_results

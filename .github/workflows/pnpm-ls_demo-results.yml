@@ -70,6 +70,7 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node-version }}
+          package-manager-cache: false
       - name: Setup PNPM ${{ matrix.pnpm-version }}
         # see https://github.com/pnpm/action-setup
         uses: pnpm/action-setup@v4

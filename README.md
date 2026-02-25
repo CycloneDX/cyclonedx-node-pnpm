@@ -10,6 +10,14 @@
 
 Create [CycloneDX] Software Bill of Materials (SBOM) from  _[pnpm]_ projects.
 
+> [!NOTE]  
+> This project has been abandoned because native CycloneDX SBOM generation is now supported directly in  _[pnpm]_.  
+> The capability was introduced following issue <https://github.com/pnpm/pnpm/issues/9088> and merged in PR <https://github.com/pnpm/pnpm/pull/10592>.
+> 
+> Since the functionality now exists upstream, this repository is no longer necessary.
+>
+> ---
+
 ## 🚧 🏗️ this project is in early development stage
 
 See the projects [issues](https://github.com/CycloneDX/cyclonedx-node-pnpm/issues),
